@@ -3,7 +3,7 @@ import Cards from '../data/cardData.json';
 export function useShuffleCards() {
   let cardsToShuffle = [];
   // play with a 6 deck shoe
-  Array.from({ length: 6 }, () => cardsToShuffle.push(...Cards));
+  Array.from({ length: 1 }, () => cardsToShuffle.push(...Cards));
 
   // THANKS to:
   // https://stackoverflow.com/questions/48219487/javascript-how-to-clone-array-without-reference
